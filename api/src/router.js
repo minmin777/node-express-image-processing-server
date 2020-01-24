@@ -1,5 +1,5 @@
 const {Router} = require('express');
-const multer = reqire('multer');
+const multer = require('multer');
 const router = Router();
 
 const filename = (request, file, callback) => {
